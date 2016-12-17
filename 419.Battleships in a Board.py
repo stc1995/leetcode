@@ -33,9 +33,6 @@ class Solution(object):
 
         return count
 
-
-
-
 # solution 1
 # class Solution(object):
 #     def countBattleships(self, board):
