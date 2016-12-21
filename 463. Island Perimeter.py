@@ -46,6 +46,7 @@ class Solution(object):
                     dfs(i, j)
         return num_3*3+num_2*2+num_1
 
+
 s = Solution()
 grid = [[0,1,0,0],[1,1,1,0],[0,1,0,0],[1,1,0,0]]
 print(s.islandPerimeter(grid))
